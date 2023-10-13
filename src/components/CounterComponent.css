@@ -1,0 +1,53 @@
+.item {
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid #5edcf7;
+    border-radius: 5px;
+}
+
+
+.counter-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 5px 2px 5px;
+
+    font-size: 25px;
+    font-weight: bolder;
+    width: 100px;
+    height: 40px;
+    background-color: #5edcf7;
+
+    border: solid #5edcf7;
+    border-radius: 5px;
+}
+
+.styleBtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 2px 5px 5px 5px;
+    width: 100px;
+    border: solid #5edcf7;
+    border-radius: 5px;
+}
+
+.reset-button, .increment-button {
+    background-color: #5edcf7;
+    font-weight: bolder;
+    margin: 5px;
+    border: 5px;
+    border-radius: 5px;
+}
+
+.reset-button:disabled, .increment-button:disabled{
+    background-color: rgba(94,220,247,0.5);
+    border: none;
+}
+
+.counter-display:disabled {
+    color: red;
+}
